@@ -1,19 +1,19 @@
 {
-  "posts": [
+  "feedback": [
     {
       "id": 1,
-      "title": "json-server",
-      "author": "typicode"
-    }
-  ],
-  "comments": [
+      "rating": 10,
+      "text": "This is feedback item 1 coming from the backend"
+    },
     {
-      "id": 1,
-      "body": "some comment",
-      "postId": 1
+      "id": 2,
+      "rating": 8,
+      "text": "This is feedback item 2 coming from the backend"
+    },
+    {
+      "text": "This is feedback item 3 coming from the backend",
+      "rating": 10,
+      "id": 3
     }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
+  ]
 }
