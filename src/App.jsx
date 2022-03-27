@@ -17,9 +17,9 @@ function App() {
             path="/"
             element={
               <>
-                <FeedbackForm/>
+                <FeedbackForm />
                 <FeedbackStats />
-                <FeedbackList/>
+                <FeedbackList />
               </>
             }
           ></Route>
